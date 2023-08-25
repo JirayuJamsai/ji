@@ -1,0 +1,44 @@
+.link {
+  color: white;
+}
+.link:hover {
+  color: black;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover td {
+  background-color: coral;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.img {
+  border-radius: 50%;
+  width: 350px;
+}
+
+
+.p1 {
+  text-align: center;
+  font-family: 'Itim';
+}
+.p2 {
+  text-align: center;
+  font-family: 'Mitr';
+}
+.p3 {
+  text-align: center;
+  font-family: 'Sarabun';
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
